@@ -25,7 +25,6 @@ def get_system_status():
 
 
 
-
 system_status = get_system_status()
 print("Disk usage is :", system_status["disk_usage"],"%")
 

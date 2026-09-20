@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pydantic
+psutil
+sentence-transformers
+numpy
+openai
+python_dotnev
