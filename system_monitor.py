@@ -4,7 +4,7 @@ def get_cpu_usage():
 
 def get_memory_usage():
     memory= psutil.virtual_memory()
-    print("Inside function: memory checked")
+    
     return memory.percent
 
 def get_disk_usage():
@@ -25,10 +25,4 @@ def get_system_status():
 
 
 
-system_status = get_system_status()
-print("Disk usage is :", system_status["disk_usage"],"%")
 
-if(system_status["disk_usage"]>90):
-    print("CRITICAL: Disk usage is too high!")
-else:
-    print("Disk usage is normal.")
