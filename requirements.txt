@@ -5,4 +5,4 @@ psutil
 sentence-transformers
 numpy
 openai
-python_dotnev
+python-dotenv
